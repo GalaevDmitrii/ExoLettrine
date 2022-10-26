@@ -1,0 +1,18 @@
+fieldset {
+    width: 200px;
+
+}
+
+.first::first-letter {
+    text-transform: uppercase;
+    color: red;
+    font-size: 3em;
+
+}
+
+
+.second::first-line {
+    font-weight: bold;
+    color: blue;
+    font-size: 2em;
+}
